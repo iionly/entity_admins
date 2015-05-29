@@ -1,0 +1,5 @@
+== CHANGELOG ==
+
+=== 1.8.0 (by iionly) ===
+
+- Made to work on Elgg 1.8

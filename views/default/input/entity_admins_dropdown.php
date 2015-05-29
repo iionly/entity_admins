@@ -1,4 +1,5 @@
 <?php
+
 $guids = array();
 $entity = $vars['entity'];
 if ($entity) {
@@ -6,7 +7,7 @@ if ($entity) {
 		'type' => 'user',
 		'relationship' => 'entity_admin_for',
 		'relationship_guid' => $entity->guid,
-		'inverse_relationship' => TRUE,
+		'inverse_relationship' => true,
 	);
 	$users = elgg_get_entities_from_relationship($options);
 	foreach ($users as $user) {
@@ -14,5 +15,5 @@ if ($entity) {
 	}
 }
 
-echo elgg_view('input/hidden',array('name'=>'entity-admins-support','value'=>1));
-echo elgg_view('input/userpicker',array('value'=>$guids));
+echo elgg_view('input/hidden', array('name' => 'entity-admins-support', 'value' => 1));
+echo elgg_view('input/userpicker', array('value' => $guids));
