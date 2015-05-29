@@ -16,4 +16,4 @@ if ($entity) {
 }
 
 echo elgg_view('input/hidden', array('name' => 'entity-admins-support', 'value' => 1));
-echo elgg_view('input/userpicker', array('value' => $guids));
+echo elgg_view('input/userpicker', array('values' => $guids));

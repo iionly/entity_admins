@@ -1,7 +1,7 @@
-Entity Admins plugin for Elgg 1.8
-=================================
+Entity Admins plugin for Elgg 1.9 - 1.11
+========================================
 
-Version: 1.8.0  
+Version: 1.9.0  
 Released: 2015-05-28  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
